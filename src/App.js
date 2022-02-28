@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from "./logo.jpeg"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={require("./yuuva.PNG")} style={{"width": "100px"}} alt="logo"/>
+        <h1>Coming Soon</h1>
+        <p>We are currently working on creating our new website.</p>
+        <p>We will be launching soon</p>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-whatsapp"></i>
       </header>
     </div>
   );
