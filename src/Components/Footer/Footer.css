@@ -1,0 +1,31 @@
+.footer-wrapper {
+    height: 300px;
+    background-color: #0dcaf0;
+    color:#eee3e0;
+    padding: 8px 0 18px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-copyright {
+    height: 30px;
+    background-color: #0dcaf0;
+    color:#eee3e0;
+    padding: 8px 0 18px;
+    font-size: 16px;
+    line-height: 22px;
+    border-top: 0.1px solid white;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    /* border: 0.1px solid black; */
+    /* margin: 20px; */
+}
+
+.footer-2, .footer-1{
+height: 200px;
+}
+.footer-1 {
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+$body-bg: #FFFFFF;
+$theme-colors: (
+  "primary": #64A9A5,
+  "secondary": #FCC7B7,
+  "tertiary": #F0F5F8,
+  "info":#0dcaf0,
+  "success":#198754,
+  "danger": #ff4136
+);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
