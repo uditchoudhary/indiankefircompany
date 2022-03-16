@@ -1,0 +1,27 @@
+.header-top-design {
+  height: 20px;
+  background-color: #0dcaf0;
+  width: 100vmax;
+}
+
+.toggle-button {
+  background-color: #0dcaf0;
+  border: 0;
+  font-size: 12px;
+  /* position: fixed; */
+  z-index: 99999;
+
+}
+
+.coupon-modal, .weather-info {
+  background-color: #0dcaf0;
+  border: 0;
+  font-size: 12px;
+
+}
+
+
+
+.modal-toggle {
+  color: black;
+}
