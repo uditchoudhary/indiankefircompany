@@ -38,12 +38,3 @@ text-align: justify;
 .greet-sec-1-title{
     color: #b16558;
 }
-
-#coupon{
-    height:200px;
-    width:400px;
-    background-color:gray;
-    z-index:100;
-    margin:auto;
-    visibility: hidden;
-}
