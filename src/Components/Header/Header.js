@@ -1,3 +1,6 @@
+import { Modal } from "bootstrap";
+import { useState } from "react";
+
 import logo from "../../static/images/logo.png";
 import "./Header.css";
 
