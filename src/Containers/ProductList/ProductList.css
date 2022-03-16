@@ -1,4 +1,6 @@
 .product-list {
-    border: 1px solid black;
+    background-color: aliceblue;
     width: 75vw;
+margin: auto auto -35px auto !important;
+    z-index: 2;
 } 

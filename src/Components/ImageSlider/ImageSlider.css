@@ -1,6 +1,6 @@
 .slider-wrapper {
     width: 100%;
-    border: 10px solid black;
+    border: 5px solid aliceblue;
     background-color: var(--cseegreen4);
     height: 20vh;
     position: relative;

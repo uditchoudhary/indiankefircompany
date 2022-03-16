@@ -102,7 +102,7 @@ const list = [
 
 const ProductList = () => {
   return (
-    <div className="product-list d-flex justify-content-around flex-wrap m-auto p-3">
+    <div className="product-list d-flex justify-content-around flex-wrap p-3">
       {list.map((item) => {
         return <ProductCard key={item.id} product={item} />;
       })}

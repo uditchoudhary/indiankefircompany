@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid header-wrapper">
         <div className="row header-top-design"></div>
         <div className="row header-row d-flex align-items-center">
           <div className="col">
