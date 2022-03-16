@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./LandingGreet.css";
 
 const LandingGreet = () => {
