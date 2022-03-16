@@ -1,7 +1,6 @@
 import React from "react";
 import "./ProductCard.css";
 const ProductCard = ({product}) => {
-    console.log(product)
     return (
       <>
         <div className="card-wrapper ">
@@ -20,8 +19,8 @@ const ProductCard = ({product}) => {
           <div className="card-product-size  d-flex justify-content-center ">
             Size:
             <select name="size" id="size" className="size-dropdown">
-               {product.availableSize.map(i => {
-                   return <option value={i}>{i}</option>;
+               {product.availableSize.map((i,key) => {
+                   return <option key={key} value={i}>{i}</option>;
                })} 
               
             </select>

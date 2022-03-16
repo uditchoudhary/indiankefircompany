@@ -30,3 +30,13 @@
   font-size: 12px;
   z-index: 99999;
 }
+
+.coupon-modal{
+  background-color: #0dcaf0;
+  border:0;
+  font-size: 12px;
+}
+
+.modal-toggle{
+  color: black;
+}
