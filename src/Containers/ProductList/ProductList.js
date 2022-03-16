@@ -1,12 +1,13 @@
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import "./ProductList.css";
 
+
 const list = [
   {
     id: 11,
     category: "Kambucha",
     name: "Apple Cinnamon",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/qsXQrn3/kapple.png",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     price: "Rs 150",
@@ -18,7 +19,7 @@ const list = [
     id: 12,
     category: "Kambucha",
     name: "Tulsi ginger",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/r543LtV/ktulsi.png",
 
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -30,7 +31,7 @@ const list = [
     id: 13,
     category: "Kambucha",
     name: "Black Current",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/fVRDR0w/kblack.png",
 
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -43,7 +44,7 @@ const list = [
     id: 14,
     category: "Kambucha",
     name: "Orange",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/p239bZG/korange.png",
 
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -56,7 +57,7 @@ const list = [
     id: 21,
     category: "Kefir",
     name: "Mango",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/p239bZG/korange.png",
 
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -69,7 +70,7 @@ const list = [
     id: 22,
     category: "Kefir",
     name: "Cranberry",
-    image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
+    image: "https://i.ibb.co/p239bZG/korange.png",
 
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
