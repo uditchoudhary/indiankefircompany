@@ -1,5 +1,5 @@
 import { Modal } from "bootstrap";
-import { useState } from "react";
+// import { useState } from "react";
 
 import logo from "../../static/images/logo.png";
 import "./Header.css";
@@ -9,7 +9,9 @@ const Header = () => {
     var element = document.body;
     element.classList.toggle("dark-mode");
   };
-
+  if(false){
+    <Modal/>
+  }
   return (
     <div>
       <div className="container-fluid header-wrapper">
