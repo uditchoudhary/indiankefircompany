@@ -24,7 +24,7 @@ const Header = () => {
           <div className="col">
             <ul className="list-group list-group-horizontal d-flex justify-content-end menu-options">
               <li className="nav-item list-group-item mx-3">
-                <div class="input-group-sm d-flex ">
+                {/* <div class="input-group-sm d-flex ">
                   <input
                     type="text"
                     class="form-control"
@@ -33,7 +33,8 @@ const Header = () => {
                   <button class="btn btn-sml" type="button" id="button-search">
                     Search
                   </button>
-                </div>
+                </div> */}
+                Contact Us
               </li>
               <li className="nav-item list-group-item mx-2">Account</li>
               <li className="nav-item list-group-item mx-2">Cart (0)</li>

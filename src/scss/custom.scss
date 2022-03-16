@@ -13,4 +13,16 @@ $theme-colors: (
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --cseegreen1: #98ffc5;
+  --cseegreen2: #a9ffcf;
+  --cseegreen3: #baffd8;
+  --cseegreen4: #cbffe2;
+  --cseegreen5: #dcffeb;
+
+  --cdustycoral: #b16558;
+  --csunshine: #f7b733;
+  --cclean: #dfdce3;
+}
+
 @import '~bootstrap/scss/bootstrap.scss';

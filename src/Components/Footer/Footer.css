@@ -1,10 +1,12 @@
 .footer-wrapper {
     height: 300px;
-    background-color: #0dcaf0;
-    color:#eee3e0;
+    background-color: var(--cseegreen1);
+    color:black;
     padding: 8px 0 18px;
     font-size: 16px;
     line-height: 22px;
+    position: relative;
+
 }
 
 .footer-copyright {

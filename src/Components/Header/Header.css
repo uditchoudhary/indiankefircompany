@@ -18,3 +18,7 @@
   height: 10px;
   background-color: #0dcaf0;
 }
+
+.list-group-item:hover{
+  border-bottom: 1px solid black;
+}
