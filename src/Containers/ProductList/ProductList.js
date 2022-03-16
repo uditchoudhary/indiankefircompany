@@ -1,7 +1,6 @@
 import ProductCard from "../../Components/ProductCard/ProductCard";
 import "./ProductList.css";
 
-
 const list = [
   {
     id: 11,
@@ -102,10 +101,18 @@ const list = [
 
 const ProductList = () => {
   return (
-    <div className="product-list d-flex justify-content-around flex-wrap p-3">
-      {list.map((item) => {
-        return <ProductCard key={item.id} product={item} />;
-      })}
+    <div className="product-list">
+      <div className="product-list-title d-flex justify-content-center p-3">
+        Most Selling Products
+      </div>
+      <div className=" d-flex justify-content-around flex-wrap p-3">
+        {list.map((item) => {
+          return <ProductCard key={item.id} product={item} />;
+        })}
+      </div>
+      <div className="allProducts-btn d-flex justify-content-center">
+        <button className="btn btn-secondary my-2">See All Products</button>
+      </div>
     </div>
   );
 };

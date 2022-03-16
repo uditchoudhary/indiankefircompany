@@ -4,3 +4,13 @@
 margin: auto auto -35px auto !important;
     z-index: 2;
 } 
+.allProducts-btn button{
+    /* border: 1px solid black; */
+    border: 0;
+    width: 30vw
+}
+
+.product-list-title{
+    font-weight: 600;
+    font-size: 18px;
+}
