@@ -5,13 +5,13 @@ const Header = () => {
   return (
     <div>
       <div className="container-fluid">
-        <div className="row header-top-design">
-          
-        </div>
+        <div className="row header-top-design"></div>
         <div className="row header-row d-flex align-items-center">
           <div className="col">
             <ul className="list-group list-group-horizontal d-flex justify-content-start menu-options">
               <li className="nav-item list-group-item mx-3">Products</li>
+              <li className="nav-item list-group-item mx-3">Organics</li>
+
               <li className="nav-item list-group-item mx-3">Testimony</li>
               <li className="nav-item list-group-item mx-3">Our Roots</li>
             </ul>
