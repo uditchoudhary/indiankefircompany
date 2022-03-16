@@ -1,5 +1,5 @@
 .product-list {
-    background-color: aliceblue;
+    background-color: var(--aliceblue);
     width: 75vw;
 margin: auto auto -35px auto !important;
     z-index: 2;

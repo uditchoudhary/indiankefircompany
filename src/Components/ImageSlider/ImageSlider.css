@@ -1,9 +1,10 @@
 .slider-wrapper {
     width: 100%;
-    border: 5px solid aliceblue;
+    border: 5px solid var(--aliceblue);
     background-color: var(--cseegreen4);
     height: 20vh;
     position: relative;
     font-family: Gilroy;
+    color: var(--textBlack);
 
 }

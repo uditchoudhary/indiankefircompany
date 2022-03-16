@@ -13,6 +13,17 @@ $theme-colors: (
   font-family: 'Poppins', sans-serif;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+  --cseegreen1: black;
+  --textBlack: #98ffc5;
+  --cseegreen5: #333b36;
+--aliceblue: rgb(32, 56, 58);
+  --cseegreen4: #65746c;
+
+}
+
 :root {
   --cseegreen1: #98ffc5;
   --cseegreen2: #a9ffcf;
@@ -23,6 +34,8 @@ $theme-colors: (
   --cdustycoral: #b16558;
   --csunshine: #f7b733;
   --cclean: #dfdce3;
+  --textBlack: #000000;
+  --aliceblue: aliceblue;
 }
 
 @import '~bootstrap/scss/bootstrap.scss';
