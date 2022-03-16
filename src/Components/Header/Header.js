@@ -1,14 +1,10 @@
-import { Modal } from "bootstrap";
-import { useState } from "react";
 import logo from "../../static/images/logo.png";
 import "./Header.css";
 
 const Header = () => {
-
   const toggleTheme = () => {
     var element = document.body;
     element.classList.toggle("dark-mode");
-
   };
 
   return (
@@ -46,7 +42,8 @@ const Header = () => {
                 </div>
                 <div className="modal-body">
                   <p>Sorry! No Coupons available at the this moment. </p>
-                  Try again later or <a href="/contactUs">Contact Us</a> for discount.
+                  Try again later or <a href="/contactUs">Contact Us</a> for
+                  discount.
                 </div>
                 <div className="modal-footer">
                   <button
@@ -61,7 +58,10 @@ const Header = () => {
             </div>
           </div>
           {/* Modal Ends here  */}
-          <button className="col-lg-2 col-md-2 toggle-button" onClick={toggleTheme}>
+          <button
+            className="col-lg-2 col-md-2 toggle-button"
+            onClick={toggleTheme}
+          >
             Toggle Theme
           </button>
         </div>
