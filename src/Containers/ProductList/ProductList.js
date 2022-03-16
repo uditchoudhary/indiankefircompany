@@ -4,7 +4,7 @@ import "./ProductList.css";
 const list = [
   {
     id: 11,
-    category: "Probiotics",
+    category: "Kambucha",
     name: "Apple Cinnamon",
     image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
     details:
@@ -15,7 +15,7 @@ const list = [
   },
   {
     id: 12,
-    category: "Probiotics",
+    category: "Kambucha",
     name: "Tulsi ginger",
     image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
 
@@ -27,7 +27,7 @@ const list = [
   },
   {
     id: 13,
-    category: "Probiotics",
+    category: "Kambucha",
     name: "Black Current",
     image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
 
@@ -39,7 +39,7 @@ const list = [
   },
   {
     id: 14,
-    category: "Probiotics",
+    category: "Kambucha",
     name: "Orange",
     image: "https://i.ibb.co/YXhf0tC/Kombucha-demo.png",
 

@@ -3,6 +3,7 @@
     width: 75vw;
 margin: auto auto -35px auto !important;
     z-index: 2;
+    border-radius: 0 0 5% 5%;
 } 
 .allProducts-btn button{
     /* border: 1px solid black; */
