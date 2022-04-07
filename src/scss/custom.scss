@@ -1,4 +1,3 @@
-$body-bg: #dcffeb;
 $theme-colors: (
   "primary": #64A9A5,
   "secondary": #FCC7B7,
@@ -37,5 +36,10 @@ $theme-colors: (
   --textBlack: #000000;
   --aliceblue: aliceblue;
 }
+
+// $body-bg: var(--aliceblue);
+$body-bg: aliceblue;
+
+// background-color: ;
 
 @import '~bootstrap/scss/bootstrap.scss';

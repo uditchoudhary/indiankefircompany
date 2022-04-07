@@ -44,11 +44,11 @@
     box-shadow: inset -12em 0 0 0 #FCC7B7, inset 10.5em 0 0 0 #FCC7B7;
 }
 .image {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
 .size-dropdown {
     width: 80px;
-    margin-left: 10px;;
+    margin-left: 10px;
 }
